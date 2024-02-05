@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA695F072B70D725002F55FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F062B70D725002F55FC /* AppDelegate.swift */; };
+		BA695F092B70D725002F55FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F082B70D725002F55FC /* SceneDelegate.swift */; };
+		BA695F0B2B70D725002F55FC /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F0A2B70D725002F55FC /* PlayerListViewController.swift */; };
+		BA695F0E2B70D725002F55FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA695F0C2B70D725002F55FC /* Main.storyboard */; };
+		BA695F102B70D726002F55FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA695F0F2B70D726002F55FC /* Assets.xcassets */; };
+		BA695F132B70D726002F55FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA695F112B70D726002F55FC /* LaunchScreen.storyboard */; };
+		BA695F1E2B70D726002F55FC /* Blasters_TournamentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F1D2B70D726002F55FC /* Blasters_TournamentTests.swift */; };
+		BA695F282B70D726002F55FC /* Blasters_TournamentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F272B70D726002F55FC /* Blasters_TournamentUITests.swift */; };
+		BA695F2A2B70D726002F55FC /* Blasters_TournamentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F292B70D726002F55FC /* Blasters_TournamentUITestsLaunchTests.swift */; };
+		BA695F382B70D7DA002F55FC /* PlayersListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F362B70D7DA002F55FC /* PlayersListTVC.swift */; };
+		BA695F392B70D7DA002F55FC /* PlayersListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA695F372B70D7DA002F55FC /* PlayersListTVC.xib */; };
+		BA695F3C2B70D981002F55FC /* MatchesListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F3A2B70D981002F55FC /* MatchesListTVC.swift */; };
+		BA695F3D2B70D981002F55FC /* MatchesListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA695F3B2B70D981002F55FC /* MatchesListTVC.xib */; };
+		BA695F3F2B70DB92002F55FC /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F3E2B70DB92002F55FC /* Network Manager.swift */; };
+		BA695F412B70E5D8002F55FC /* MatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F402B70E5D8002F55FC /* MatchListViewController.swift */; };
+		BA695F432B710681002F55FC /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA695F422B710681002F55FC /* ImageDownloader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA695F1A2B70D726002F55FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA695EFB2B70D725002F55FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA695F022B70D725002F55FC;
+			remoteInfo = "Blasters Tournament";
+		};
+		BA695F242B70D726002F55FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA695EFB2B70D725002F55FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA695F022B70D725002F55FC;
+			remoteInfo = "Blasters Tournament";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA695F032B70D725002F55FC /* Blasters Tournament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blasters Tournament.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA695F062B70D725002F55FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA695F082B70D725002F55FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA695F0A2B70D725002F55FC /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
+		BA695F0D2B70D725002F55FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA695F0F2B70D726002F55FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA695F122B70D726002F55FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA695F142B70D726002F55FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA695F192B70D726002F55FC /* Blasters TournamentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blasters TournamentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA695F1D2B70D726002F55FC /* Blasters_TournamentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blasters_TournamentTests.swift; sourceTree = "<group>"; };
+		BA695F232B70D726002F55FC /* Blasters TournamentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blasters TournamentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA695F272B70D726002F55FC /* Blasters_TournamentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blasters_TournamentUITests.swift; sourceTree = "<group>"; };
+		BA695F292B70D726002F55FC /* Blasters_TournamentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blasters_TournamentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA695F362B70D7DA002F55FC /* PlayersListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListTVC.swift; sourceTree = "<group>"; };
+		BA695F372B70D7DA002F55FC /* PlayersListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayersListTVC.xib; sourceTree = "<group>"; };
+		BA695F3A2B70D981002F55FC /* MatchesListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListTVC.swift; sourceTree = "<group>"; };
+		BA695F3B2B70D981002F55FC /* MatchesListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchesListTVC.xib; sourceTree = "<group>"; };
+		BA695F3E2B70DB92002F55FC /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		BA695F402B70E5D8002F55FC /* MatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListViewController.swift; sourceTree = "<group>"; };
+		BA695F422B710681002F55FC /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA695F002B70D725002F55FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA695F162B70D726002F55FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA695F202B70D726002F55FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA695EFA2B70D725002F55FC = {
+			isa = PBXGroup;
+			children = (
+				BA695F052B70D725002F55FC /* Blasters Tournament */,
+				BA695F1C2B70D726002F55FC /* Blasters TournamentTests */,
+				BA695F262B70D726002F55FC /* Blasters TournamentUITests */,
+				BA695F042B70D725002F55FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA695F042B70D725002F55FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA695F032B70D725002F55FC /* Blasters Tournament.app */,
+				BA695F192B70D726002F55FC /* Blasters TournamentTests.xctest */,
+				BA695F232B70D726002F55FC /* Blasters TournamentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA695F052B70D725002F55FC /* Blasters Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				BA695F062B70D725002F55FC /* AppDelegate.swift */,
+				BA695F082B70D725002F55FC /* SceneDelegate.swift */,
+				BA695F0A2B70D725002F55FC /* PlayerListViewController.swift */,
+				BA695F402B70E5D8002F55FC /* MatchListViewController.swift */,
+				BA695F362B70D7DA002F55FC /* PlayersListTVC.swift */,
+				BA695F3A2B70D981002F55FC /* MatchesListTVC.swift */,
+				BA695F3E2B70DB92002F55FC /* Network Manager.swift */,
+				BA695F422B710681002F55FC /* ImageDownloader.swift */,
+				BA695F3B2B70D981002F55FC /* MatchesListTVC.xib */,
+				BA695F372B70D7DA002F55FC /* PlayersListTVC.xib */,
+				BA695F0C2B70D725002F55FC /* Main.storyboard */,
+				BA695F0F2B70D726002F55FC /* Assets.xcassets */,
+				BA695F112B70D726002F55FC /* LaunchScreen.storyboard */,
+				BA695F142B70D726002F55FC /* Info.plist */,
+			);
+			path = "Blasters Tournament";
+			sourceTree = "<group>";
+		};
+		BA695F1C2B70D726002F55FC /* Blasters TournamentTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA695F1D2B70D726002F55FC /* Blasters_TournamentTests.swift */,
+			);
+			path = "Blasters TournamentTests";
+			sourceTree = "<group>";
+		};
+		BA695F262B70D726002F55FC /* Blasters TournamentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA695F272B70D726002F55FC /* Blasters_TournamentUITests.swift */,
+				BA695F292B70D726002F55FC /* Blasters_TournamentUITestsLaunchTests.swift */,
+			);
+			path = "Blasters TournamentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA695F022B70D725002F55FC /* Blasters Tournament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA695F2D2B70D726002F55FC /* Build configuration list for PBXNativeTarget "Blasters Tournament" */;
+			buildPhases = (
+				BA695EFF2B70D725002F55FC /* Sources */,
+				BA695F002B70D725002F55FC /* Frameworks */,
+				BA695F012B70D725002F55FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blasters Tournament";
+			productName = "Blasters Tournament";
+			productReference = BA695F032B70D725002F55FC /* Blasters Tournament.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA695F182B70D726002F55FC /* Blasters TournamentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA695F302B70D726002F55FC /* Build configuration list for PBXNativeTarget "Blasters TournamentTests" */;
+			buildPhases = (
+				BA695F152B70D726002F55FC /* Sources */,
+				BA695F162B70D726002F55FC /* Frameworks */,
+				BA695F172B70D726002F55FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA695F1B2B70D726002F55FC /* PBXTargetDependency */,
+			);
+			name = "Blasters TournamentTests";
+			productName = "Blasters TournamentTests";
+			productReference = BA695F192B70D726002F55FC /* Blasters TournamentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA695F222B70D726002F55FC /* Blasters TournamentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA695F332B70D726002F55FC /* Build configuration list for PBXNativeTarget "Blasters TournamentUITests" */;
+			buildPhases = (
+				BA695F1F2B70D726002F55FC /* Sources */,
+				BA695F202B70D726002F55FC /* Frameworks */,
+				BA695F212B70D726002F55FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA695F252B70D726002F55FC /* PBXTargetDependency */,
+			);
+			name = "Blasters TournamentUITests";
+			productName = "Blasters TournamentUITests";
+			productReference = BA695F232B70D726002F55FC /* Blasters TournamentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA695EFB2B70D725002F55FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BA695F022B70D725002F55FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BA695F182B70D726002F55FC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BA695F022B70D725002F55FC;
+					};
+					BA695F222B70D726002F55FC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BA695F022B70D725002F55FC;
+					};
+				};
+			};
+			buildConfigurationList = BA695EFE2B70D725002F55FC /* Build configuration list for PBXProject "Blasters Tournament" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA695EFA2B70D725002F55FC;
+			productRefGroup = BA695F042B70D725002F55FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA695F022B70D725002F55FC /* Blasters Tournament */,
+				BA695F182B70D726002F55FC /* Blasters TournamentTests */,
+				BA695F222B70D726002F55FC /* Blasters TournamentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA695F012B70D725002F55FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA695F392B70D7DA002F55FC /* PlayersListTVC.xib in Resources */,
+				BA695F3D2B70D981002F55FC /* MatchesListTVC.xib in Resources */,
+				BA695F132B70D726002F55FC /* LaunchScreen.storyboard in Resources */,
+				BA695F102B70D726002F55FC /* Assets.xcassets in Resources */,
+				BA695F0E2B70D725002F55FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA695F172B70D726002F55FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA695F212B70D726002F55FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA695EFF2B70D725002F55FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA695F412B70E5D8002F55FC /* MatchListViewController.swift in Sources */,
+				BA695F3C2B70D981002F55FC /* MatchesListTVC.swift in Sources */,
+				BA695F432B710681002F55FC /* ImageDownloader.swift in Sources */,
+				BA695F382B70D7DA002F55FC /* PlayersListTVC.swift in Sources */,
+				BA695F0B2B70D725002F55FC /* PlayerListViewController.swift in Sources */,
+				BA695F072B70D725002F55FC /* AppDelegate.swift in Sources */,
+				BA695F092B70D725002F55FC /* SceneDelegate.swift in Sources */,
+				BA695F3F2B70DB92002F55FC /* Network Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA695F152B70D726002F55FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA695F1E2B70D726002F55FC /* Blasters_TournamentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA695F1F2B70D726002F55FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA695F282B70D726002F55FC /* Blasters_TournamentUITests.swift in Sources */,
+				BA695F2A2B70D726002F55FC /* Blasters_TournamentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA695F1B2B70D726002F55FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA695F022B70D725002F55FC /* Blasters Tournament */;
+			targetProxy = BA695F1A2B70D726002F55FC /* PBXContainerItemProxy */;
+		};
+		BA695F252B70D726002F55FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA695F022B70D725002F55FC /* Blasters Tournament */;
+			targetProxy = BA695F242B70D726002F55FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA695F0C2B70D725002F55FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA695F0D2B70D725002F55FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA695F112B70D726002F55FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA695F122B70D726002F55FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA695F2B2B70D726002F55FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA695F2C2B70D726002F55FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA695F2E2B70D726002F55FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blasters Tournament/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Blasters-Tournament";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA695F2F2B70D726002F55FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blasters Tournament/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Blasters-Tournament";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA695F312B70D726002F55FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Blasters-TournamentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blasters Tournament.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blasters Tournament";
+			};
+			name = Debug;
+		};
+		BA695F322B70D726002F55FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Blasters-TournamentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blasters Tournament.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blasters Tournament";
+			};
+			name = Release;
+		};
+		BA695F342B70D726002F55FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Blasters-TournamentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blasters Tournament";
+			};
+			name = Debug;
+		};
+		BA695F352B70D726002F55FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Blasters-TournamentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blasters Tournament";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA695EFE2B70D725002F55FC /* Build configuration list for PBXProject "Blasters Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA695F2B2B70D726002F55FC /* Debug */,
+				BA695F2C2B70D726002F55FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA695F2D2B70D726002F55FC /* Build configuration list for PBXNativeTarget "Blasters Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA695F2E2B70D726002F55FC /* Debug */,
+				BA695F2F2B70D726002F55FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA695F302B70D726002F55FC /* Build configuration list for PBXNativeTarget "Blasters TournamentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA695F312B70D726002F55FC /* Debug */,
+				BA695F322B70D726002F55FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA695F332B70D726002F55FC /* Build configuration list for PBXNativeTarget "Blasters TournamentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA695F342B70D726002F55FC /* Debug */,
+				BA695F352B70D726002F55FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA695EFB2B70D725002F55FC /* Project object */;
+}
